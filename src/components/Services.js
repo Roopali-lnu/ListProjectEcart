@@ -1,71 +1,74 @@
 import React from "react";
-import breakfast from "./Image/Breakfast.png";
-import munchies from "./Image/Munchies.png";
-import colddrink from "./Image/Colddrink.png";
-import tea from "./Image/Tea.png";
-import bakery from "./Image/Bakery.png";
-import instantfood from "./Image/Instantfood.png";
-import sweettooth from "./Image/Sweettooth.png";
-import vegtablesfruits from "./Image/Vegtablesfruits.png"
-
+import corporate from "./Image/corporate-identity.png";
+import design from "./Image/design.png";
+import developing from "./Image/developing.png";
+import mobile from "./Image/mobile-shopping.png";
+import socialmedia from "./Image/social-media.png";
+import shopping from "./Image/shopping.png";
+import campaign from "./Image/campaign.png";
+import sales from "./Image/sales.png"
 const Services = () => {
   return (
-        <div className="container">
-            <div className="row">            
-                <div className="col-12 col-sm-3">
-                
-                    <div className='rounded float-start mt-4 w-75'>
-                        <img src={vegtablesfruits} className="img-fluid img-thumbnail" alt='vegtablesfruits' style={{backgroundColor:"#e1efef", borderRadius:"30px"}}/>
-                        <b>Vegtables & Fruits</b>
-                    </div>
-
-                </div>
-                <div className="col-4 col-sm-3">
-                    <div className='rounded float-start mt-4 w-75'>
-                    <img src={breakfast} className="img-fluid img-thumbnail" alt='breakfast' style={{backgroundColor:"#e1efef", borderRadius:"30px"}}/>
-                        <b> Dairy & Breakfast</b>
-                    </div>
-                </div>
-                <div className="col-4 col-sm-3">
-                    <div className='rounded float-start mt-4 w-75'>
-                    <img src={munchies} className="img-fluid img-thumbnail" alt='munchies' style={{backgroundColor:"#e1efef", borderRadius:"30px"}}/>
-                        <b>Munchies</b>
-                    </div>
-                </div>
-                <div className="col-4 col-sm-3">
-                    <div className='rounded float-start mt-4 w-75'>
-                    <img src={colddrink} className="img-fluid img-thumbnail" alt='colddrink' style={{backgroundColor:"#e1efef", borderRadius:"30px"}}/>
-                        <b>Cold Drinks & Juices</b>
-                    </div>
-                </div>
-
-                <div className="col-4 col-sm-3">
-                    <div className='rounded float-start mt-4 w-75'>
-                    <img src={instantfood} className="img-fluid img-thumbnail" alt='instantfood' style={{backgroundColor:"#e1efef", borderRadius:"30px"}}/>
-                        <b>Instant & Frozen Food</b>
-                    </div>
-                </div>
-                <div className="col-4 col-sm-3">
-                    <div className='rounded float-start mt-4 w-75'>
-                    <img src={tea} className="img-fluid img-thumbnail" alt='tea' style={{backgroundColor:"#e1efef", borderRadius:"30px"}}/>
-                        <b>Tea, Coffee & Health Drinks</b>
-                    </div>
-                </div>
-                <div className="col-4 col-sm-3">
-                    <div className='rounded float-start mt-4 w-75'>
-                    <img src={bakery} className="img-fluid img-thumbnail" alt='bakery' style={{backgroundColor:"#e1efef", borderRadius:"30px"}}/>
-                        <b>Bakery & Biscuits</b>
-                    </div>
-                </div>
-                <div className="col-4 col-sm-3">
-                    <div className='rounded float-start mt-4 w-75'>
-                    <img src={sweettooth} className="img-fluid img-thumbnail" alt='sweettooth' style={{backgroundColor:"#e1efef", borderRadius:"30px"}}/>
-                        <b>Sweet Tooth</b>
-                    </div>
-                </div>
-            </div>
-        </div>
-    )
+<div className="container">
+  <div className="row g-2 mt-3">
+  <h3 className="text-center">*******Our Services*******</h3>
+  <br/>
+  <p className="text-center">“There are no traffic jams along the extra mile.”</p>
+    <div className="col-3">
+    <div className='rounded mx-auto d-block w-25'>
+            <img src={corporate} className="img-fluid img-thumbnail" alt='corporate'/>
+            <b>Business</b>
+          </div>
+    </div>
+    <div className="col-3">
+    <div className='rounded mx-auto d-block w-25'>
+            <img src={design} className="img-fluid img-thumbnail" alt='design'/>
+            <b>Web Design</b>
+          </div>
+    </div>
+    <div className="col-3">
+    <div className='rounded mx-auto d-block w-25'>
+            <img src={developing} className="img-fluid img-thumbnail" alt='developing'/>
+            <b>Developing</b>
+          </div>
+    </div>
+    <div className="col-3">
+    <div className='rounded mx-auto d-block w-25'>
+            <img src={mobile} className="img-fluid img-thumbnail" alt='mobile'/>
+            <b>Shopping</b>
+          </div>
+    </div>
+    <div className="col-3">
+    <div className='rounded mx-auto d-block w-25'>
+            <img src={socialmedia} className="img-fluid img-thumbnail" alt='socialmedia'/>
+            <b>Social media</b>
+          </div>
+    </div>
+    <div className="col-3">
+    <div className='rounded mx-auto d-block w-25'>
+            <img src={shopping} className="img-fluid img-thumbnail" alt='shopping'/>
+            <b>Ecommerce</b>
+          </div>
+    </div>
+    <div className="col-3">
+    <div className='rounded mx-auto d-block w-25'>
+            <img src={campaign} className="img-fluid img-thumbnail" alt='campaign'/>
+            <b>Campaign</b>
+          </div>
+    </div>
+    <div className="col-3">
+    <div className='rounded mx-auto d-block w-25'>
+            <img src={sales} className="img-fluid img-thumbnail" alt='sales'/>
+            <b>Sales</b>
+          </div>
+    </div>
+  </div>
+  <br/>
+  <br/>
+  <p className="text-center">Earn your success based on service to others, not at the expense of others.The aim of marketing is to know and understand the customer so well the product or service fits him and sells itself.
+  Know what your customers want most and what your company does best. … Focus on where those two meet.</p>
+</div>
+  )
 
 }
 

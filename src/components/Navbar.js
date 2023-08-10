@@ -14,7 +14,8 @@ const Navbar = () => {
         <a id='logo' href='/'>Telus E-Cart</a>
       </div>
       <div className={`navbar-links ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
-        <Link to='/'>Home</Link>
+      <Link to='/category'>Category</Link>
+        <Link to='/home'>Home</Link>
         <Link to='/about'>About</Link>
         <Link to='/service'>Service</Link>
         <Link to='/contact'>Contact</Link>
