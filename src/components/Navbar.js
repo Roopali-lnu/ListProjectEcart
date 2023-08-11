@@ -13,12 +13,13 @@ const Navbar = () => {
       <div className='navbar-brand'>
         <a id='logo' href='/'>Telus E-Cart</a>
       </div>
-      <div className={`navbar-links ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
-      <Link to='/category'>Category</Link>
+      <div className={`navbar-links ${isMobileMenuOpen ? 'mobile-open' : ''}`}>      
         <Link to='/home'>Home</Link>
+        <Link to='/category'>Category</Link>
         <Link to='/about'>About</Link>
         <Link to='/service'>Service</Link>
         <Link to='/contact'>Contact</Link>
+        <Link to='/vegtablesfruits'>Vegtablesfruits</Link>
         <Link to='/register'>
           <button>Sign Up</button>
         </Link>
