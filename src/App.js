@@ -9,6 +9,7 @@ import Services from './components/Services';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/Home';
 import Category from './components/Category';
+import Vegtablesfruits from './components/Vegtablesfruits';
 
 function App() {
   return (
@@ -23,8 +24,10 @@ function App() {
           <Route path='about' element={<About />} />
           <Route path='service' element={<Services />} />
           <Route path='contact' element={<Contact />} />
-        </Routes>
+          <Route path='vegtablesfruits' element={<Vegtablesfruits />} />
+        </Routes>        
       </Router>
+      
     </div>
   );
 }
