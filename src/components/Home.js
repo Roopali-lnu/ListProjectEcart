@@ -21,7 +21,7 @@ const Home = () => {
         <br/>
       <h3 className="text-start display-5" style={{color:"#FACA69"}}>SHOPPING NOW</h3>
       <br/>
-      <b>Best Sellers</b>
+      <b>Best Sellers</b>      
       <br/>
       <div className="row g-2 mt-3">
         
@@ -40,7 +40,7 @@ const Home = () => {
         <div className="col-4">
           <div className='rounded mx-auto d-block w-25'>
             <img src={icecream} className="img-fluid img-thumbnail" alt='icecream' />
-            <h5>Ice Cream</h5>
+            <h5>IceCream</h5>
           </div>
         </div>
         <div className="col-4">
@@ -58,7 +58,7 @@ const Home = () => {
         <div className="col-4">
           <div className='rounded mx-auto d-block w-25'>
             <img src={giftpack} className="img-fluid img-thumbnail" alt='giftpack' />
-            <h5>Gift Pack</h5>
+            <h5>Gifts</h5>
           </div>
         </div>
 </div>

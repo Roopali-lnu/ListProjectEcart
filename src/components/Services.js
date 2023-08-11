@@ -23,7 +23,7 @@ const Services = () => {
         <div className="col-3">
           <div className='rounded mx-auto d-block w-25'>
             <img src={design} className="img-fluid img-thumbnail" alt='design' />
-            <b>Web Design</b>
+            <b>Web</b>
           </div>
         </div>
         <div className="col-3">
@@ -41,7 +41,7 @@ const Services = () => {
         <div className="col-3">
           <div className='rounded mx-auto d-block w-25'>
             <img src={socialmedia} className="img-fluid img-thumbnail" alt='socialmedia' />
-            <b>Social media</b>
+            <b>Social</b>
           </div>
         </div>
         <div className="col-3">
