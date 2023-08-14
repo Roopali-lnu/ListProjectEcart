@@ -1,0 +1,45 @@
+
+[
+    {
+        "cat_id":1,
+        "cat_name":"Vegtables-and-Fruits",
+        "cat_image":"http://localhost:3000/static/media/Vegtablesfruits.4bffc96618918d54e596.png"
+    },
+    {
+        "cat_id":2,
+        "cat_name":"Dairy-and-Breakfast",
+        "cat_image":"http://localhost:3000/static/media/Breakfast.df8dd2955d7eac5760e0.png"
+    },
+    {
+        "cat_id":3,
+        "cat_name":"Munchies",
+        "cat_image":"http://localhost:3000/static/media/Munchies.d06796b3a27efd14c11e.png"
+    },
+    {
+        "cat_id":4,
+        "cat_name":"Cold-Drinks-and-Juices",
+        "cat_image":"http://localhost:3000/static/media/Colddrink.5b7b8981abcb7e98621f.png"
+    },
+    {
+        "cat_id":5,
+        "cat_name":"Instant-Frozen-Food",
+        "cat_image":"http://localhost:3000/static/media/Instantfood.30ed2c4d93705fd7d45c.png"
+    },
+    {
+        "cat_id":6,
+        "cat_name":"Tea-Coffee-and-Health-Drinks",
+        "cat_image":"http://localhost:3000/static/media/Tea.8c499347d98b222cb004.png"
+    },
+    {
+        "cat_id":7,
+        "cat_name":"Bakery-Biscuits",
+        "cat_image":"http://localhost:3000/static/media/Bakery.da8bc9eaa4e778ab8737.png"
+    },
+    {
+        "cat_id":8,
+        "cat_name":"Sweet-Tooth",
+        "cat_image":"http://localhost:3000/static/media/Sweettooth.f450664ef162fb9119b0.png"
+    }
+
+
+]
