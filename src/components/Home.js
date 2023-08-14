@@ -27,37 +27,37 @@ const Home = () => {
         
         <div className="col-4">
           <div className='rounded mx-auto d-block w-25'>
-            <img src={pulse} className="img-fluid img-thumbnail" alt='pulse' />
+            <img src={pulse} className="img-fluid img-thumbnail rounded-circle" alt='pulse' />
             <h5>Pulse</h5>
           </div>
         </div>
         <div className="col-4">
           <div className='rounded mx-auto d-block w-25'>
-            <img src={oil} className="img-fluid img-thumbnail" alt='oil' />
+            <img src={oil} className="img-fluid img-thumbnail rounded-circle" alt='oil' />
             <h5>Oil</h5>
           </div>
         </div>
         <div className="col-4">
           <div className='rounded mx-auto d-block w-25'>
-            <img src={icecream} className="img-fluid img-thumbnail" alt='icecream' />
+            <img src={icecream} className="img-fluid img-thumbnail rounded-circle" alt='icecream' />
             <h5>IceCream</h5>
           </div>
         </div>
         <div className="col-4">
           <div className='rounded mx-auto d-block w-25'>
-            <img src={chocolate} className="img-fluid img-thumbnail" alt='chocolate' />
+            <img src={chocolate} className="img-fluid img-thumbnail rounded-circle" alt='chocolate' />
             <h5>Chocolate</h5>
           </div>
         </div>
         <div className="col-4">
           <div className='rounded mx-auto d-block w-25'>
-            <img src={venga} className="img-fluid img-thumbnail" alt='venga' />
+            <img src={venga} className="img-fluid img-thumbnail rounded-circle" alt='venga' />
             <h5>Juices</h5>
           </div>
         </div>
         <div className="col-4">
           <div className='rounded mx-auto d-block w-25'>
-            <img src={giftpack} className="img-fluid img-thumbnail" alt='giftpack' />
+            <img src={giftpack} className="img-fluid img-thumbnail rounded-circle" alt='giftpack' />
             <h5>Gifts</h5>
           </div>
         </div>
